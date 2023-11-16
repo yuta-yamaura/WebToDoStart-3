@@ -142,7 +142,7 @@ public class TaskController {
         } else {
             model.addAttribute("taskForm", taskForm);
             model.addAttribute("title", "タスク一覧");
-            return "task/index";
+            return "redirect:/task";
         }
     }
 
