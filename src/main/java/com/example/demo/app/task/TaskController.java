@@ -113,7 +113,7 @@ public class TaskController {
     		taskForm = taskFormOpt.get();
     	}
 
-        model.addAttribute("taskForm", "taskForm");
+        model.addAttribute("taskForm", taskForm);
         List<Task> list = taskService.findAll();
         model.addAttribute("list", list);
         model.addAttribute("taskId", id);

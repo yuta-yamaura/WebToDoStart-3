@@ -11,7 +11,7 @@ CREATE TABLE task (
   type_id int NOT NULL,
   title varchar(50) NOT NULL,
   detail text,
-  deadline datetime NOT NULL,
+  deadline datetime,
   PRIMARY KEY (id)
 );
 
